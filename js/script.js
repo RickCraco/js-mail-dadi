@@ -4,6 +4,12 @@ const dado = [1, 2, 3, 4, 5, 6];
 let lancioCPU = dado[Math.floor(Math.random()*7)];
 let lancioUtente = dado[Math.floor(Math.random()*7)];
 
+if(lancioCPU > lancioUtente){
+    console.log('ha vinto il computer');
+}else{
+    console.log("ha vinto l'utente");
+}
+
 const sendBtn = document.getElementById('invia');
 let flag = false;
 
