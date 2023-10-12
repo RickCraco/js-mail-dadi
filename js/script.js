@@ -2,7 +2,9 @@ const emailList = ['username@30.com', 'pippo@pluto.it', 'giornogiovanna10@napoli
 
 const dado = [1, 2, 3, 4, 5, 6];
 let lancioCPU = dado[Math.floor(Math.random()*7)];
+console.log(lancioCPU);
 let lancioUtente = dado[Math.floor(Math.random()*7)];
+console.log(lancioUtente);
 
 if(lancioCPU > lancioUtente){
     console.log('ha vinto il computer');
