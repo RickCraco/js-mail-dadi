@@ -1,9 +1,9 @@
 const emailList = ['username@30.com', 'pippo@pluto.it', 'giornogiovanna10@napoli.it'];
 
 const dado = [1, 2, 3, 4, 5, 6];
-let lancioCPU = dado[Math.floor(Math.random()*7)];
+let lancioCPU = dado[getRndInteger(0, (dado.length - 1))];
 console.log(lancioCPU);
-let lancioUtente = dado[Math.floor(Math.random()*7)];
+let lancioUtente = dado[getRndInteger(0, (dado.length - 1))];
 console.log(lancioUtente);
 
 if(lancioCPU > lancioUtente){
